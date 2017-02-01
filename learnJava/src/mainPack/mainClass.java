@@ -13,21 +13,28 @@ public class mainClass {
 //        rez_1 = var1 + var2;
 //        System.out.println("Result = " + rez_1);
         int var5 = 9;
-        libsClass.sum(3,9);
+        libsClass.sum(3, 9);
 //        int rez_12 = var1 + var5;
 //        System.out.println("Result rez 12 = " + rez_12);
 
         //3+(2*6)
 
-        int result2Mult2Mult5 = libsClass.multiplication(2,5);
+
+        int result2Mult2Mult5 = libsClass.multiplication(2, 5);
 
 
-libsClass.sum(3, libsClass.multiplication(2,6));
+        libsClass.sum(3, libsClass.multiplication(2, 6));
 
-libsClass.sum(result2Mult2Mult5,33);
+        libsClass.sum(result2Mult2Mult5, 33);
+// "33" + 3  = 36
+        libsClass.sum("33", 3);
+// "3a3" + 3 -> error message
+        if (libsClass.sum("3a3", 3) == 99999) {
+            System.out.println("Logic 1");
+        } else {
+            System.out.println("Logic 2");
+        }
     }
-
-
 
 
 }
