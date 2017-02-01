@@ -17,11 +17,14 @@ public class mainClass {
 //        int rez_12 = var1 + var5;
 //        System.out.println("Result rez 12 = " + rez_12);
 
-        //3+(2*5)
+        //3+(2*6)
 
-        libsClass.multiplication(2,5);
+        int result2Mult2Mult5 = libsClass.multiplication(2,5);
 
 
+libsClass.sum(3, libsClass.multiplication(2,6));
+
+libsClass.sum(result2Mult2Mult5,33);
     }
 
 
