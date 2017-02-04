@@ -52,9 +52,16 @@ public class LibsClass {
             System.out.println("Unknown exception");
             tempResult = 77777;
         }
-
         return tempResult;
     }
+//string splitting
+public int Split(String varStr1, String varStr2, String varStr3) {
 
-
+    int Splitstring = 0;
+    //Splitstring = varStr1 + varStr2;
+    System.out.println("Result string split : " + varStr1 + " " + varStr2 + " " + varStr3);
+    return Splitstring;
 }
+}
+
+

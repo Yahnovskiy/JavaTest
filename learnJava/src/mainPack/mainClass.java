@@ -34,6 +34,15 @@ public class mainClass {
         } else {
             System.out.println("Logic 2");
         }
+
+
+     //string splitting
+
+        //LibsClass libsClass = new LibsClass();
+        libsClass.Split("Hello", "Roman", "QA");
+
+
+
     }
 
 
