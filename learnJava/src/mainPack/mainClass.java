@@ -47,10 +47,10 @@ public class mainClass {
 
 
 
-        int[] arrayInt = {2,28,10};
+        int[] arrayInt = {2,38,10};
 
         LIbsWithArray lIbsWithArray = new LIbsWithArray();
-        lIbsWithArray.
+        lIbsWithArray.printArray(arrayInt);
 
     }
 
