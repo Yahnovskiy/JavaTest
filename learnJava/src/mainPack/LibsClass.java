@@ -54,14 +54,42 @@ public class LibsClass {
         }
         return tempResult;
     }
-//string splitting
-public int Split(String varStr1, String varStr2, String varStr3) {
 
-    int Splitstring = 0;
-    //Splitstring = varStr1 + varStr2;
-    System.out.println("Result string split : " + varStr1 + " " + varStr2 + " " + varStr3);
-    return Splitstring;
-}
+    /**
+     * Split strings
+     *
+     * @param varStr1
+     * @param varStr2
+     * @param varStr3
+     * @return
+     */
+
+    public int Split(String varStr1, String varStr2, String varStr3) {
+
+        int Splitstring = 0;
+        //Splitstring = varStr1 + varStr2;
+        System.out.println("Result string split : " + varStr1 + " " + varStr2 + " " + varStr3);
+        return Splitstring;
+    }
+
+    /**
+     * Method div (if div 0 then result 99999)
+     *
+     * @param var1
+     * @param var2
+     * @return
+     */
+    public static double div(int varrrr1, int varrrr2) {
+        try {
+            double result;
+            result = varrrr1 / varrrr2;
+            System.out.println("Result div: " + varrrr1 + " / " + varrrr2 + " = " + result);
+            return result;
+        } catch (ArithmeticException e) {
+            System.out.println("Error " + e.getMessage());
+            return 99999;
+        }
+    }
 }
 
 

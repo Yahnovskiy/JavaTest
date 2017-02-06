@@ -36,14 +36,18 @@ public class mainClass {
         }
 
 
-     //string splitting
+
 
         //LibsClass libsClass = new LibsClass();
+
         libsClass.Split("Hello", "Roman", "QA");
 
+        //delenie na 0
+        libsClass.div(2, 6);
 
 
     }
 
+ }
 
-}
+
