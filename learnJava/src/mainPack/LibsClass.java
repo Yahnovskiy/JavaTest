@@ -75,8 +75,8 @@ public class LibsClass {
     /**
      * Method div (if div 0 then result 99999)
      *
-     * @param var1
-     * @param var2
+     * @param varrrr11
+     * @param varrrr22
      * @return
      */
     public static double div(int varrrr1, int varrrr2) {
