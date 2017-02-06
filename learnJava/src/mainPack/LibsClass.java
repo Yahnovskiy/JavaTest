@@ -75,14 +75,14 @@ public class LibsClass {
     /**
      * Method div (if div 0 then result 99999)
      *
-     * @param varrrr11
-     * @param varrrr22
+     * @param varrrr1
+     * @param varrrr2
      * @return
      */
     public static double div(int varrrr1, int varrrr2) {
         try {
             double result;
-            result = varrrr1 / varrrr2;
+            result =  varrrr1 / varrrr2;
             System.out.println("Result div: " + varrrr1 + " / " + varrrr2 + " = " + result);
             return result;
         } catch (ArithmeticException e) {

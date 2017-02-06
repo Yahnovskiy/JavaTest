@@ -43,8 +43,14 @@ public class mainClass {
         libsClass.Split("Hello", "Roman", "QA");
 
         //delenie na 0
-        libsClass.div(2, 6);
+        libsClass.div(3, 0);
 
+
+
+        int[] arrayInt = {2,28,10};
+
+        LIbsWithArray lIbsWithArray = new LIbsWithArray();
+        lIbsWithArray.
 
     }
 
